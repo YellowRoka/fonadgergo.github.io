@@ -1,0 +1,88 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="archStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A7FFF"/>
+      <stop offset="100%" stop-color="#6FDCFF"/>
+    </linearGradient>
+    <linearGradient id="archFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12233A"/>
+      <stop offset="100%" stop-color="#0A1423"/>
+    </linearGradient>
+    <filter id="archGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="980" rx="34" fill="#0C1626"/>
+  <rect x="22" y="22" width="1556" height="936" rx="28" fill="#0D1727" opacity="0.96" stroke="#1A3250"/>
+
+  <g opacity="0.25">
+    <path d="M100 150H1500" stroke="#17304A"/>
+    <path d="M100 310H1500" stroke="#17304A"/>
+    <path d="M100 470H1500" stroke="#17304A"/>
+    <path d="M100 630H1500" stroke="#17304A"/>
+    <path d="M100 790H1500" stroke="#17304A"/>
+  </g>
+
+  <g filter="url(#archGlow)">
+    <rect x="130" y="170" width="180" height="120" rx="24" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+    <rect x="410" y="170" width="210" height="120" rx="24" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+    <rect x="720" y="170" width="240" height="120" rx="24" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+    <rect x="1060" y="170" width="220" height="120" rx="24" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+    <rect x="1380" y="170" width="150" height="120" rx="24" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#archGlow)">
+    <rect x="250" y="520" width="180" height="110" rx="22" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+    <rect x="530" y="520" width="190" height="110" rx="22" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+    <rect x="820" y="520" width="210" height="110" rx="22" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+    <rect x="1130" y="520" width="220" height="110" rx="22" fill="url(#archFill)" stroke="url(#archStroke)" stroke-width="2"/>
+  </g>
+
+  <path d="M310 230H410" stroke="#4A7FFF" stroke-width="3"/>
+  <path d="M620 230H720" stroke="#4A7FFF" stroke-width="3"/>
+  <path d="M960 230H1060" stroke="#4A7FFF" stroke-width="3"/>
+  <path d="M1280 230H1380" stroke="#4A7FFF" stroke-width="3"/>
+
+  <path d="M800 290V430" stroke="#4A7FFF" stroke-width="3"/>
+  <path d="M800 430H340V520" stroke="#315DD0" stroke-width="2.4"/>
+  <path d="M800 430H625V520" stroke="#315DD0" stroke-width="2.4"/>
+  <path d="M800 430H925V520" stroke="#315DD0" stroke-width="2.4"/>
+  <path d="M800 430H1240V520" stroke="#315DD0" stroke-width="2.4"/>
+
+  <circle cx="800" cy="430" r="8" fill="#58A6FF"/>
+
+  <g fill="#DDE9FF" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="28" font-weight="700">
+    <text x="165" y="238">UI</text>
+    <text x="442" y="238">Use Cases</text>
+    <text x="788" y="238">Repository</text>
+    <text x="1118" y="238">Engine / Service</text>
+    <text x="1400" y="238">Data</text>
+  </g>
+
+  <g fill="#A9BDD8" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" font-weight="400">
+    <text x="150" y="270">Presentation</text>
+    <text x="435" y="270">Business orchestration</text>
+    <text x="775" y="270">Adapter layer</text>
+    <text x="1090" y="270">System logic</text>
+    <text x="1400" y="270">Source</text>
+  </g>
+
+  <g fill="#DDE9FF" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="24" font-weight="700">
+    <text x="292" y="586">Router</text>
+    <text x="594" y="586">Theme</text>
+    <text x="865" y="586">Constants</text>
+    <text x="1174" y="586">Shared Utils</text>
+  </g>
+
+  <g fill="#A9BDD8" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">
+    <text x="280" y="613">Navigation flow</text>
+    <text x="572" y="613">Visual system</text>
+    <text x="846" y="613">Design tokens</text>
+    <text x="1162" y="613">Cross-feature helpers</text>
+  </g>
+</svg>

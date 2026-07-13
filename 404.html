@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./#/">
+  <title>Redirecting...</title>
+  <script>
+    (function () {
+      var path = window.location.pathname || '/';
+      var base = '/cv2';
+      var relativePath = path.indexOf(base) === 0 ? path.slice(base.length) : path;
+      var query = window.location.search || '';
+      var hash = window.location.hash || '';
+      var destination = base + '/#' + relativePath + query + hash;
+      window.location.replace(destination);
+    }());
+  </script>
+</head>
+<body></body>
+</html>
