@@ -10,9 +10,9 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "icons/portfolio_icon.webp",
+            "src": "icons/icon.png",
             "sizes": "any",
-            "type": "image/webp"
+            "type": "image/png"
         }
     ]
 }

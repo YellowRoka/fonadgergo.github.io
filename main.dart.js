@@ -44678,7 +44678,7 @@ A.a_I.prototype={
 K(a){var s,r,q,p,o=this,n=null,m=o.c,l=m.a,k=o.d
 l=k.gbh()==="hu"?l.b:l.a
 s=A.J(a).ok.z
-l=A.dm(new A.bg(B.qi,A.aw(l,n,n,n,s==null?n:s.lH(B.ph,B.aF),n,n),n),n,120)
+l=A.dm(new A.bg(B.Ru,A.aw(l,n,n,n,s==null?n:s.lH(B.ph,B.aF),n,n),n),n,120)
 s=t.p
 r=A.b([],s)
 if(!o.e)r.push(A.CZ(-18,A.cP(n,n,B.v,B.cB,n,n,n,n,n,n,n,n,2),n,n,n,n,16,n))
@@ -44721,7 +44721,7 @@ s=a.aA(t.Gk).r.f
 r=s.gbh()==="hu"?"Teljes rendszereket tervezek \xe9s \xe9p\xedtek.":"I design and build complete systems."
 q=s.gbh()==="hu"?u.T:u.K
 p=t.p
-return A.rh(A.b([A.bj(a,B.aE,t.l).w.a.a<760?A.bJ(A.b([new A.H5(n,!1,o),B.dm,B.IV,B.eX,new A.a0f(n,o)],p),B.P,B.B,B.t):A.dm(A.bJ(A.b([A.ds(A.dk(A.b([A.ds(new A.bg(B.Rr,new A.H5(n,!1,o),o),8),B.ad2,B.RT],p),B.G,B.t,0),1),B.ny,new A.a0g(n,o)],p),B.P,B.B,B.t),760,o)],p),o,!1,q,r)},
+return A.rh(A.b([A.bj(a,B.aE,t.l).w.a.a<760?A.bJ(A.b([new A.H5(n,!1,o),B.dm,B.IV,B.eX,new A.a0f(n,o)],p),B.P,B.B,B.t):A.dm(A.bJ(A.b([A.ds(A.dk(A.b([A.ds(new A.bg(B.Rr,new A.H5(n,!1,o),o),7),B.ad2,B.RT],p),B.G,B.t,0),1),B.ny,new A.a0g(n,o)],p),B.P,B.B,B.t),760,o)],p),o,!1,q,r)},
 $S:51}
 A.H5.prototype={
 K(a){var s,r,q,p,o,n,m,l=null,k=a.aA(t.Gk).r.f
@@ -44779,7 +44779,7 @@ o=A.J(a).ok.z
 o=o==null?s:o.akW(B.PS,15,1.28)
 return A.cP(s,A.bJ(A.b([p,B.e_,A.aw(this.d,2,B.aI,s,o,s,s)],t.p),B.G,B.B,B.t),B.v,s,s,new A.bY(s,s,q,r,s,B.TL,B.a8),s,112,s,B.RC,s,s,s)}}
 A.a0i.prototype={
-K(a){return new A.zc(1.14,A.fJ(B.bJ,A.b([A.akS(0,new A.bg(B.qi,new A.jj(B.Jo,B.lq,B.a8N,null),null))],t.p),B.Z,B.bx),null)}}
+K(a){return new A.zc(0.98,A.fJ(B.bJ,A.b([A.akS(0,new A.bg(B.qi,new A.jj(B.Jo,B.lq,B.a8N,null),null))],t.p),B.Z,B.bx),null)}}
 A.mw.prototype={
 pj(){return this.ax.a.a.asv(this.ay)}}
 A.Tl.prototype={
@@ -98319,7 +98319,8 @@ B.qh=new A.ay(0,0,0,8)
 B.Rp=new A.ay(0,0,0,92)
 B.Rq=new A.ay(0,10,0,0)
 B.Rr=new A.ay(0,34,0,0)
-B.qi=new A.ay(0,8,0,0)
+B.qi=new A.ay(0,4,0,0)
+B.Ru=new A.ay(0,8,0,0)
 B.qj=new A.ay(0,8,0,8)
 B.Rv=new A.ay(10,6,10,6)
 B.Rw=new A.ay(10,8,10,8)
@@ -98400,14 +98401,14 @@ B.m4=new A.qe(!1,!1,!1,!0)
 B.qt=new A.qf(!1,!1,!1,!1)
 B.qu=new A.qf(!1,!1,!1,!0)
 B.es=new A.P8(0,"tight")
-B.Rt=new A.ay(0,54,0,0)
+B.Rs=new A.ay(0,54,0,0)
 B.qV=new A.cf(62842,"MaterialIcons",null,!0)
 B.OE=new A.r(1,0.5254901960784314,0.7098039215686275,1,B.e)
 B.SP=new A.eW(B.qV,24,B.OE,null,null)
-B.a9l=new A.bg(B.Rt,B.SP,null)
+B.a9l=new A.bg(B.Rs,B.SP,null)
 B.RS=new A.kt(1,B.es,B.a9l,null)
 B.IV=new A.a0i(null)
-B.RT=new A.kt(12,B.es,B.IV,null)
+B.RT=new A.kt(13,B.es,B.IV,null)
 B.J0=new A.a2n(null)
 B.RU=new A.kt(1,B.es,B.J0,null)
 B.RV=new A.AR(null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -101058,14 +101059,13 @@ B.a9h=new A.re(1,null)
 B.a9i=new A.ST(0,"portrait")
 B.a9j=new A.ST(1,"landscape")
 B.a9k=new A.vK(null)
-B.Ru=new A.ay(0,6,0,0)
+B.Rt=new A.ay(0,6,0,0)
 B.qW=new A.cf(63030,"MaterialIcons",null,!1)
 B.Pq=new A.r(1,0.3686274509803922,0.6588235294117647,1,B.e)
 B.SQ=new A.eW(B.qW,18,B.Pq,null,null)
-B.a9m=new A.bg(B.Ru,B.SQ,null)
-B.Rs=new A.ay(0,4,0,0)
+B.a9m=new A.bg(B.Rt,B.SQ,null)
 B.SM=new A.eW(B.qW,18,B.fq,null,null)
-B.a9n=new A.bg(B.Rs,B.SM,null)
+B.a9n=new A.bg(B.qi,B.SM,null)
 B.dV=new A.rg(0,"initial")
 B.a9o=new A.rg(1,"loading")
 B.a9p=new A.rg(2,"loaded")
